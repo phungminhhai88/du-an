@@ -1,0 +1,40 @@
+/* div{
+    border: 1px solid black;
+} */
+
+.header{
+    height: 100px;
+    background: #eeeeee;
+
+}
+.menu{
+    height: 50px;
+    background: #eeeeee;
+}
+
+.footer{
+    height: 50px;
+    background: #eeeeee;
+}
+
+.content{
+    height: 300px;
+    display: flex;
+}
+.sideContent{
+    width: 20%;
+    background: #eeeeee;
+
+}
+.mainContent{
+    width: 60%;
+    background: #eeeeee;
+
+}
+
+.header, .footer, .sideContent, .mainContent, .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
